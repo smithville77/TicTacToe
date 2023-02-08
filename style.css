@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.gameboard--container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 600px;
+  width: 600px;
+  background-color: grey;
+}
+
+#gameboard > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border: 3px solid black;
+  font-size: 80px;
+}
